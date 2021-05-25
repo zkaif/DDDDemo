@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DDDDemo-client" />
+        <module name="DDDDemo-interfaces" />
+        <module name="DDDDemo-infrastructure" />
+        <module name="DDDDemo-application" />
+        <module name="DDDDemo-domain" />
+        <module name="DDDDemo-utils" />
+        <module name="DDDDemo-externalClient" />
+        <module name="DDDDemo-App" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
