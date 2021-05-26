@@ -40,6 +40,10 @@ public class OrderApplication {
 //        itemRepository.getById(orderDraft.);
         orderDraft.setBuyer(buyer);
         orderDraft.setSeller(seller);
+        //application 就负责问是不是合法，domain回答是否合法
+        if(orderDraft.checkXXX()){
+            throw new RuntimeException();
+        }
         //填充数据后再调用工厂
         Order order = OrderFactory.createOrder(orderDraft);
         orderRepository.save(order);

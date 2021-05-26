@@ -13,4 +13,8 @@ public class OrderDraft {
     private Long sellerId;
     private User buyer;
     private User seller;
+
+    public boolean checkXXX() {
+        return false;
+    }
 }
